@@ -2,9 +2,7 @@
 
 namespace App\Models\Shared;
 
-use Illuminate\Database\Eloquent\Model;
-
-class Tenant extends Model
+class Tenant extends BaseSharedModel
 {
     protected $connection = 'shared';
 
